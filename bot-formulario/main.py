@@ -4,6 +4,7 @@ import sys
 from browser import crear_driver
 from config import URL_VISADO
 from formulario import iniciar_automatizacion
+from login import iniciar_sesion
 from notificaciones import enviar_telegram
 from utils import configurar_logs
 
@@ -18,7 +19,9 @@ if __name__ == "__main__":
     driver = crear_driver()
     driver.get(URL_VISADO)
 
-    input("🔐 Inicia sesión y navega al formulario. Presiona ENTER para comenzar...\n")
+    iniciar_sesion(driver)
+
+    input("📋 Navega al formulario y presiona ENTER para comenzar...\n")
 
     try:
         iniciar_automatizacion(driver)

@@ -8,10 +8,15 @@ TWILIO_TOKEN = "YOUR_TWILIO_AUTH_TOKEN"
 TWILIO_FROM  = "+XXXXXXXXXXX"
 TWILIO_TO    = "+XXXXXXXXXXX"
 
+# ── ImmiAccount ───────────────────────────────────────────────────────────────
+IMMI_EMAIL    = "YOUR_EMAIL"
+IMMI_PASSWORD = "YOUR_PASSWORD"
+
 # ── Selenium ──────────────────────────────────────────────────────────────────
-URL_VISADO  = "https://online.immi.gov.au/elp/app"
-XPATH_PASO  = "//span[@class='wc-label' and contains(text(), '/17')]"
-XPATH_BOTON = "//button[.//span[text()='Next']]"
+URL_VISADO     = "https://online.immi.gov.au/elp/app"
+URL_POST_LOGIN = "https://online.immi.gov.au"
+XPATH_PASO     = "//span[@class='wc-label' and contains(text(), '/17')]"
+XPATH_BOTON    = "//button[.//span[text()='Next']]"
 
 # ── Lógica ────────────────────────────────────────────────────────────────────
 PASO_FINAL = "6/17"

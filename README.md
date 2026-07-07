@@ -160,6 +160,8 @@ TWILIO_TO      = "+34600123456"
 
 ### Telegram
 
+> 📺 **Video tutorial:** [Cómo configurar un bot de Telegram paso a paso](https://youtu.be/Qg5BaKTW1Uw?si=bByOrQt9kj_wKfoW)
+
 #### 1. Crear un bot con BotFather
 
 1. Abre Telegram y busca **@BotFather**.

@@ -6,24 +6,24 @@ __pycache__/
 venv/
 env/
 
-# Environment variables
+# Variables de entorno
 .env
 
-# Runtime-generated logs
+# Logs generados en ejecución
 *.log
-form.log
-maintenance.log
+formulario.log
+mantenimiento.log
 
-# Runtime-generated files
-last_page.html
+# Archivos generados en ejecución
+ultima_pagina.html
 
-# ChromeDriver (each user must use their own)
+# ChromeDriver (cada usuario debe usar el suyo)
 chromedriver
 chromedriver.exe
 
-# Operating system
+# Sistema operativo
 .DS_Store
 Thumbs.db
 
-# Local credentials (never commit)
-data.txt
+# Credenciales locales (no subir nunca)
+datos.txt

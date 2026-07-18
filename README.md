@@ -1,4 +1,4 @@
-# Visado Australia (immi.gov.au) — Bots de Automatización
+# Visado Australia (ImmiAccount) — Bots de Automatización
 
 ¿Cansado de refrescar la página del gobierno australiano para saber si puedes avanzar al siguiente paso del formulario? Con este programa conseguirás tu visado sin perder el tiempo mirando una pantalla. El bot automatiza por ti la tarea de pulsar "Next" de forma periódica y, en cuanto el siguiente paso esté disponible, recibirás una notificación por mensaje o una llamada al móvil.
 

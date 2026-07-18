@@ -1,33 +1,10 @@
 # Visado Australia (ImmiAccount) — Bots de Automatización
 
-**Deja de refrescar. Empieza a vivir.**
+¿Cansado de refrescar la página del gobierno australiano para saber si puedes avanzar al siguiente paso del formulario? Con este programa conseguirás tu visado sin perder el tiempo mirando una pantalla. El bot automatiza por ti la tarea de pulsar "Next" de forma periódica y, en cuanto el siguiente paso esté disponible, recibirás una notificación por mensaje o una llamada al móvil.
 
----
+Además, el programa es capaz de detectar si la página está en mantenimiento y avisarte en el momento en que vuelva a estar operativa, para que no te pierdas ninguna oportunidad.
 
-Ya conoces la rutina. Abres el portal de inmigración australiana, compruebas si algo ha cambiado, no encuentras nada — y cierras la pestaña. Diez minutos después, vuelves a entrar. Y así todo el día, con esa sensación constante de que en el momento en que dejes de mirar, perderás tu oportunidad.
-
-Es agotador. Y es completamente innecesario.
-
----
-
-Este proyecto son dos bots en Python que vigilan el portal de ImmiAccount por ti, las 24 horas del día:
-
-- **El bot de mantenimiento** detecta cuándo el portal cae por mantenimiento y te avisa en el instante en que vuelve a estar disponible — para que siempre seas el primero cuando importa.
-- **El bot de formulario** mantiene tu solicitud en movimiento de forma automática, avanzando por el formulario a intervalos aleatorios y alertándote cada vez que se completa un paso.
-
-Sin tener el navegador abierto. Sin refrescar manualmente. Sin ansiedad.
-
-Cuando algo ocurre, lo sabrás — mediante un **mensaje de Telegram**, una **llamada telefónica**, o ambas a la vez. Lo configuras una sola vez, lo dejas correr en segundo plano y sigues con tu día.
-
----
-
-> Creado por frustración propia. Compartido porque ahora mismo hay alguien pasando exactamente por lo mismo.
-
----
-
-**¿Listo para dejar de comprobar manualmente? → [Ir a la instalación](#instalación)**
-
----
+El proyecto está desarrollado en Python y utiliza Google Chrome para navegar por el portal de forma automática. Para las notificaciones se integra con Telegram y para las llamadas con Twilio.
 
 ## Bots incluidos
 

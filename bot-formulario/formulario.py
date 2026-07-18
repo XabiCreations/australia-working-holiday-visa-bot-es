@@ -87,8 +87,8 @@ def iniciar_automatizacion(driver):
 
             if PASO_FINAL in paso:
                 logger.info(f"🎯 Formulario alcanzó el paso {PASO_FINAL}. Finalizando.")
-                enviar_telegram(f"🎯 Formulario alcanzó el paso *{PASO_FINAL}*. Cerrando en 5 segundos.")
-                time.sleep(5)
+                enviar_telegram(f"🎯 Formulario alcanzó el paso *{PASO_FINAL}*. Cerrando en 3 segundos.")
+                time.sleep(3)
                 return
 
         except TimeoutException:

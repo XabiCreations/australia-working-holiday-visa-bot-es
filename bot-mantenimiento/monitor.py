@@ -29,7 +29,7 @@ def obtener_pagina():
         except req.RequestException as e:
             logger.warning(f"⚠️ Intento {intento}/{MAX_REINTENTOS} fallido: {e}")
             if intento < MAX_REINTENTOS:
-                time.sleep(10)
+                time.sleep(5)
     return None
 
 
